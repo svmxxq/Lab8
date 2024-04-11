@@ -11,7 +11,7 @@ function App() {
     return (
         <Provider store={store}>
             <div className="app-container">
-                <h1 style={{ textAlign: 'center' }}>Interactive Bulletin Board</h1>
+                <h1 style={{ textAlign: 'center' }}>Live Communication Display</h1>
                 <AddPostForm />
                 <Suspense fallback={<div>Loading...</div>}>
                     <LazyPostList />
