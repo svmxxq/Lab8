@@ -1,0 +1,72 @@
+.post-container {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-content-container h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333333;
+}
+
+.post-content-container p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #555555;
+}
+
+.post-buttons {
+    margin-top: 15px;
+}
+
+.post-buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.post-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.post-edit-container input,
+.post-edit-container textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.post-edit-container input:focus,
+.post-edit-container textarea:focus {
+    border-color: #007bff;
+}
+
+.post-edit-container button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.post-edit-container button:hover {
+    background-color: #0056b3;
+}
