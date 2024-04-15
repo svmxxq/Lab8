@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import { Provider } from 'react-redux';
 import store from './store/store';
 import AddPostForm from './components/AddPostForm';
-import './App.css'; // Подключение стилей
+import './App.css';
 
 // Ленивая загрузка PostList
 const LazyPostList = React.lazy(() => import('./components/PostList'));
